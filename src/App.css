@@ -1,0 +1,148 @@
+body{
+  width: 70%;
+  margin: 0 auto;
+  background-color: pink;
+}
+.meme{
+  margin: 0 auto;
+  text-shadow: 5px 0 black;
+  color: #ffffff;
+  font-family: fantasy;
+ font-size: 21px;
+  position: relative;
+  width: 500px;
+  height: 400px;
+  text-align: center;
+}
+.memepic{
+  float: right;
+  width: 500px;
+  height: 400px;
+}
+
+
+.topText{
+  padding: 0 1%;
+  position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+   width: auto;
+}
+.bottomText{
+  padding: 0 1%;
+  position: absolute; 
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.headerpic{
+  width : 100%;
+   height : 200px;
+  opacity: 0.4;
+}
+
+.top{
+  position :relative;
+  text-transform: uppercase;
+  padding: 1%;
+  width: 100%;
+  text-align: center;
+  height: 200px;
+}
+.header{
+  letter-spacing: 15px;
+  text-shadow: 6px 4px 8px black;
+  font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+left: 0;
+right: 0;
+position: absolute;
+top: 36%;
+bottom: 64%;
+font-size: 50px;
+  color: orangered;
+}
+.about{
+  background-color: pink;
+  color:red;
+  position: absolute;
+  bottom: 0%;
+  right: 4%;
+}
+
+hr{
+  margin: 5%;
+  height: 3px;
+  background-color: rgb(255, 75, 75);;
+}
+input{
+  border: 3px dashed rgb(189, 0, 31);
+  border-radius: 4%;
+  margin: 2%;
+  background-color: white;
+  padding: 1%;
+}
+.note{
+  text-align: center;
+  color: green;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 3%;
+  border: 2px solid green;
+  background-color: black;
+}
+
+
+.author{
+  text-align: right;
+  width: 100%;
+  color: black;
+  background-color: grey;
+}
+
+@media screen and (max-width : 850px){
+  body{
+    overflow-x :hidden;
+    width: 100%;
+  }
+ input{
+   width: 100%;
+   margin: 1% 0;
+   border:2px ridge green;
+ }
+ .header{
+   width: 100%;
+   letter-spacing: 0;
+font-size: 30px;
+}
+.about{
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  font-size: 12px;
+}
+.headerpic{
+  width: 100%;
+  height: 150px;
+}
+.top{
+  width: 100%;
+  height: 150px;
+}
+
+.note{
+  width: 100%;
+  font-size: 12px;
+}
+.meme{
+  width: 100%;
+  margin: 0 auto;
+}
+.memepic{
+  width: 100%;
+margin: 0 auto;
+}
+
+}
